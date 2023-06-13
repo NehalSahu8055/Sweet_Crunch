@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SWEET CruncH</title>
+    <link
+      rel="shortcut icon"
+      href="./images/title_logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+
+    <!-- Tailwind Css Linking-->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    
+
+
+    <!--  CSS Part -->
+    <style>
+      body{
+    background: url('./images/background3.jpg') no-repeat;
+    background-size: cover;
+      }
+    </style>
+    
+   
+  </head>
+  <body>
+    <!-- 
+        #HEADER SECTION 
+    -->
+
+    <header class="navbar sticky top-0">
+      <!-- Navbar -->
+
+      <nav
+        class="bg-blue-400 flex  justify-between px-10 py-2 lg:text-center max-md:flex-col ma"
+      >
+        <ul class="flex items-center justify-between">
+          <li>
+            <a href="/" class="logo__wrapper">
+              <i
+                class="fa-solid fa-ice-cream text-2xl"
+                style="color: #ffffff"
+              ></i>
+              <span class="text-white font-bold">SWEET CruncH</span>
+            </a>
+          </li>
+
+          <li>
+            <button class="hamburger md:hidden" aria-expanded="false" aria-controls="main-menu">
+              <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+            </button>
+          </li>
+        </ul>
+
+        <ul
+          id = "main-menu" class="ham__dropdown font-normal text-gray-100 flex gap-8 max-md:flex-col max-md:gap-3 max-md:items-center max-md:py-3"
+        >
+          <li class="cursor-pointer flex hover:text-white">
+            <a
+              href="https://nehalsahu8055.github.io/Responsive_Four_Card_Feature_Section/"
+              >Home</a
+            >
+          </li>
+          <li class="cursor-pointer flex hover:text-white">
+            <a href="https://coding-bootcamp-slider-nehal.netlify.app/"
+              >Pages</a
+            >
+          </li>
+          <li class="cursor-pointer flex hover:text-white">
+            <a
+              href="https://nehalsahu8055.github.io/Responsive_Single_Price_Grid/"
+              >Sections</a
+            >
+          </li>
+          <li class="cursor-pointer flex hover:text-white">
+            <a
+              href="https://nehalsahu8055.github.io/Responsive_Pricing_Component_With_toggle_button/"
+              >Docs</a
+            >
+          </li>
+          <li class="cursor-pointer flex hover:text-white">
+            <a
+              href="https://nehalsahu8055.github.io/Responsive_FAQ_Accordion_Card/"
+              >Icons</a
+            >
+          </li>
+
+          <li>
+            <button
+              class="hover:bg-green-300 bg-yellow-400 p-1 text-xs rounded-md text-black"
+            >
+              Order Now
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- 
+        #MAIN SECTION 
+    -->
+
+    <main>
+      <!-- Front Page -->
+      <section
+        class="py-48 flex justify-center items-center lg:px-10 max-sm:px-5"
+      >
+        <div class="main__container flex flex-col gap-8 md:max-w-5xl">
+          <h1
+            class="font-serif font-extrabold text-center text-5xl max-md:text-4xlmax-md:text-4xl text-blue-500"
+          >
+            The tans will fade but the memories will last forever
+          </h1>
+          <p
+            class="font-serif font-extrabold text-center text-2xl text-blue-400 max-lg:px-20"
+          >
+            Beat The Summer with our delicious & crunchy icecreams
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- 
+        -#FOOTER SECTION 
+      -->
+
+    <footer class="bg-slate-500 flex justify-between px-10 py-7 max-md:flex-col max-md:items-center max-md:gap-5">
+      <!-- Left Footer -->
+      <nav class="flex flex-col gap-5 max-md:items-center">
+        <ul>
+          <li>
+            <a href="/" class="logo__wrapper">
+              <i
+                class="fa-solid fa-ice-cream text-2xl"
+                style="color: #ffffff"
+              ></i>
+              <span class="text-white font-bold">SWEET CruncH</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="font-normal text-gray-100 flex gap-8 text-sm max-md:items-center max-md:gap-3">
+          <li class="cursor-pointer flex hover:text-white">
+            <a
+              href="https://nehalsahu8055.github.io/Responsive_Four_Card_Feature_Section/"
+              >Home</a
+            >
+          </li>
+          <li class="cursor-pointer flex hover:text-white">
+            <a href="https://coding-bootcamp-slider-nehal.netlify.app/"
+              >Pages</a
+            >
+          </li>
+          <li class="cursor-pointer flex hover:text-white">
+            <a
+              href="https://nehalsahu8055.github.io/Responsive_Single_Price_Grid/"
+              >Sections</a
+            >
+          </li>
+          <li class="cursor-pointer flex hover:text-white">
+            <a
+              href="https://nehalsahu8055.github.io/Responsive_Pricing_Component_With_toggle_button/"
+              >Docs</a
+            >
+          </li>
+          <li class="cursor-pointer flex hover:text-white">
+            <a
+              href="https://nehalsahu8055.github.io/Responsive_FAQ_Accordion_Card/"
+              >Icons</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Right footer -->
+      <section class="social-icons flex flex-col gap-5 text-gray-100 max-md:items-center">
+        <div class="flex gap-5">
+          <a href="https://github.com/NehalSahu8055" aria-label="Facebook"
+            ><i class="hover:-white text-xl fa-brands fa-square-facebook fb"></i
+          ></a>
+          <a href="https://github.com/NehalSahu8055" aria-label="Twitter"
+            ><i
+              class="hover:text-white text-xl fa-brands fa-twitter twitter"
+            ></i
+          ></a>
+          <a href="https://github.com/NehalSahu8055" aria-label="Pinterest"
+            ><i
+              class="hover:text-white text-xl fa-brands fa-pinterest pinterest"
+            ></i
+          ></a>
+          <a href="https://github.com/NehalSahu8055" aria-label="Instagram"
+            ><i
+              class="hover:text-white text-xl fa-brands fa-instagram insta"
+            ></i
+          ></a>
+        </div>
+        <div class="copyright text-sm">
+          © 2023 Sweet Crunch_nehal. All rights reserved.
+        </div>
+      </section>
+    </footer>
+
+
+     <!-- JS Part -->
+     <script>
+      document.querySelector('.hamburger').addEventListener('click',function(){
+        document.querySelector('.ham__dropdown').classList.toggle('max-md:hidden');
+      });
+    </script>
+  </body>
+</html>
